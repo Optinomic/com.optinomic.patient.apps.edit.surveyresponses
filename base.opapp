@@ -1,0 +1,32 @@
+[module]
+id = __opapp_identifier()
+name = Fragebogen-Daten bearbeiten
+short_description = Fragebogen-Daten anzeigen und bearbeiten.
+version = __opapp_version()
+type = patient
+
+[description]
+Fragebogen-Daten anzeigen und bearbeiten.
+
+[developer]
+first_name = Beat
+last_name = Ottiger
+github_user = ottigerb
+email = beat@optinomic.com
+company = Optinomic Gmbh
+phone = +41 (0)44 508 26 76
+website = http://www.optinomic.com/
+
+[readme]
+__opapp_include(readme.md)
+
+[template app 6 7]
+__opapp_include(../lib/polymer2/patient_app.m4)
+__opapp_include(../lib/polymer2/index_fullscreen.m4)
+__opapp_include(elements/app.html)
+
+
+[javascript]
+
+
+[css]
